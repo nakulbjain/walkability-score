@@ -1,0 +1,66 @@
+# ==============================================================================
+# Git Ignore - Property Location Intelligence (Walkability Score)
+# ==============================================================================
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.jks
+*.keystore
+
+# Node & Frontend Build Artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Java & Backend Maven Artifacts
+target/
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE & Editor Configuration
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Local PostgreSQL Database & Logs
+pgdata/
+pglog/
+*.dump
+*.backup
+
+# Temporary Scratch Scripts & Execution Logs
+scratch/
+test-*.js
+*.log
+start-postgres.vbs
+.system_generated/

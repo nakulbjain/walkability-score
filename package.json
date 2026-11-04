@@ -1,0 +1,13 @@
+{
+  "name": "walkability-score",
+  "version": "2.5.0",
+  "description": "Property Location Intelligence and Walkability Scoring Platform",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}
